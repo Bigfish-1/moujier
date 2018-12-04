@@ -4,10 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>hello</title>
+    <title>某己的个人网站</title>
 </head>
 <body>
-    <h1 style="color:cadetblue">呦！少年</h1>
-    <p>Hello. Hello. 大家好，这个是测试页面</p>
+    <!-- 网页头部 -->
+    <header>
+        <h1><a href="#">某己</a></h1>
+        <p>仅练习webpack打包，只有一个静态主页。</p>
+    </header>
+    <!-- 导航 -->
+    <nav class="container">
+        <a class="active" href="javascript:void(0)">首页</a>
+        <a href="javascript:void(0)">日常分享</a>
+        <a href="javascript:void(0)">动漫推荐</a>
+        <a href="javascript:void(0)">学习笔记</a>
+        <a href="javascript:void(0)">打赏【^m^】</a>
+    </nav>
+    <!-- 网页主体 -->
+    <main class="container">
+        <div class="content">
+            <!-- 推荐 -->
+            <section>
+                <div class="item">
+                    <h3>2002年的第一场雪 </h3>
+                    <time>2002-11-11</time>
+                    <div class="text">
+                        2002年的第一场雪， 比以往来得更晚一些,
+                        2002年的第一场雪， 比以往来得更晚一些,
+                        2002年的第一场雪， 比以往来得更晚一些...
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>2003年的第一场雪 </h3>
+                    <time>2003-11-11</time>
+                    <div class="text">
+                        2003年的第一场雪， 比以往来得更晚一些,
+                        2003年的第一场雪， 比以往来得更晚一些,
+                        2003年的第一场雪， 比以往来得更晚一些...
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>2004年的第一场雪 </h3>
+                    <time>2004-11-11</time>
+                    <div class="text">
+                        2004年的第一场雪， 比以往来得更晚一些,
+                        2004年的第一场雪， 比以往来得更晚一些,
+                        2004年的第一场雪， 比以往来得更晚一些...
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>2005年的第一场雪 </h3>
+                    <time>2005-11-11</time>
+                    <div class="text">
+                        2005年的第一场雪， 比以往来得更晚一些,
+                        2005年的第一场雪， 比以往来得更晚一些,
+                        2005年的第一场雪， 比以往来得更晚一些...
+                    </div>
+                </div>
+            </section>
+            <!-- 侧栏 -->
+            <aside>
+                <div class="aside-ad">
+                    侧栏 <br>
+                    ——.——
+                </div>
+                <div class="aside-ad">
+                    广告君 <br>
+                    ——.——
+                </div>
+            </aside>
+        </div>
+    </main>
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p class="foot-list">
+                <a href="javascript:void(0)">关于某己</a>
+                <a href="javascript:void(0)">联系我</a>
+                <a href="javascript:void(0)">打赏我</a>
+            </p>
+            <p class="website-info">备案信息******</p>
+        </div>
+    </footer>
+
+    <script src="./bundle.js"></script>
 </body>
 </html>

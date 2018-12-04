@@ -1,0 +1,44 @@
+项目介绍：
+    个人网站主页（某己）
+
+    技术栈：
+        后端： nodeJS git 
+        前端： h5 css3 flex 媒体查询 webpack
+
+    目的：巩固前端基础
+
+
+项目流程：
+    一.搭建开发环境
+        1.安装git
+        创建远程仓库 github
+        克隆到本地
+
+        2.安装node
+        安装express
+
+        3.express moujier -e 创建项目
+        npm init -y 初始化项目目录
+
+        4.npm i -g webpack 安装构建打包工具
+            配置webpacik.config.js
+            定义入口出口文件
+            定义加载器
+
+        5.创建基础文件目录
+        dist    index.html
+        style 样式文件    
+        js 存放自定义js
+        images 存放图片
+
+        6.创建git忽略列表文件
+            .gitignore
+            添加忽略文件
+    二. pc端布局
+        html骨架
+        css样式
+
+        响应移动端设备
+        重构html css3
+
+        原生js完成基本的交互
