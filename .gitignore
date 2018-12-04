@@ -1,7 +1,6 @@
 node_modules
-./public/images
-./public/src
-./public/package.json
-./public/styles
-./public/webpack.config.js
-./public/需求
+/moujier/public/*
+!/moujier/public/dist
+# styles
+# webpack.config.js
+# 需求
